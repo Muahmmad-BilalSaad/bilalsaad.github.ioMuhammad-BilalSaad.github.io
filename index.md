@@ -74,11 +74,29 @@ title: Home — Muhammad Bilal Saad
           <span class="sem-arrow" id="sem2-arrow">▼</span>
         </div>
         <div class="semester-posts" id="sem2">
-          <a href="/2026/02/01/first-week/" class="post-link">
-            <span>🏫</span> My First Days at University
+          <a href="/2026/02/01/time-management/" class="post-link">
+            <span>⏰</span> Time Management for Engineering Students
           </a>
-          <a href="#" class="post-link coming-soon">
-            <span>⏳</span> More posts coming soon...
+          <a href="/2026/02/15/skills-every-ce-student-should-learn/" class="post-link">
+            <span>💡</span> Skills Every CE Student Should Learn
+          </a>
+          <a href="/2026/03/01/my-favorite-subjects/" class="post-link">
+            <span>📚</span> My Favorite Subjects in Computer Engineering
+          </a>
+          <a href="/2026/03/15/challenges-faced-by-engineering-students/" class="post-link">
+            <span>⚡</span> Challenges Faced by Engineering Students
+          </a>
+          <a href="/2026/04/01/importance-of-practical-learning/" class="post-link">
+            <span>🔬</span> Importance of Practical Learning
+          </a>
+          <a href="/2026/04/15/career-opportunities-after-computer-engineering/" class="post-link">
+            <span>🚀</span> Career Opportunities After Computer Engineering
+          </a>
+          <a href="/2026/05/01/my-goals-for-the-future/" class="post-link">
+            <span>🎯</span> My Goals for the Future
+          </a>
+          <a href="/2026/05/15/database-and-deep-learning/" class="post-link">
+            <span>🤖</span> Database Systems and Deep Learning
           </a>
         </div>
       </div>
