@@ -14,7 +14,7 @@ title: Home — Muhammad Bilal Saad
       <p class="subtitle">BS Computer Engineering | Semester 2</p>
       <p class="university">🎓 UET Faisalabad | Reg: 2025-BSCPE-109</p>
       <p class="bio">Web Developer & University Student from Pakistan. I build clean websites and share my real journey through writing.</p>
-
+    </div>
   </div>
 </section>
 
@@ -25,11 +25,55 @@ title: Home — Muhammad Bilal Saad
     <span class="arrow" id="journey-arrow">▼</span>
   </div>
   <div class="journey-content" id="journey-content">
-    <h3>My Journey as a Computer Engineering Student</h3>
-    <p>Choosing Computer Engineering has been one of the most important decisions of my academic life. I am currently studying Computer Engineering at UET Faisalabad Campus, Pakistan, where every semester brings new challenges and valuable learning experiences.</p>
-    <p>During my studies, I have explored different subjects, including programming, digital logic design, mathematics, electronics, and computer systems. At first, some of these courses seemed difficult because they required a completely different way of thinking. However, with regular practice, guidance from teachers, and support from friends, I gradually became more confident.</p>
-    <p>University life has also helped me grow as a person. Living away from home, managing my own schedule, completing assignments on time, and working on group projects have taught me responsibility and discipline.</p>
-    <p>One of the things I enjoy most about Computer Engineering is that it combines both hardware and software. Although my journey is still continuing, I believe every lecture, project, and practical experience is helping me become a better engineer.</p>
+
+    <p class="journey-intro">My Computer Engineering journey at UET Faisalabad — semester by semester!</p>
+
+    <div class="semester-grid">
+
+      <!-- SEMESTER 1 -->
+      <div class="semester-box" onclick="toggleSemester('sem1', event)">
+        <div class="semester-box-header">
+          <span class="sem-icon">📚</span>
+          <div>
+            <h3>Semester 1</h3>
+            <p>2025 — Foundation</p>
+          </div>
+          <span class="sem-arrow" id="sem1-arrow">▼</span>
+        </div>
+        <div class="semester-posts" id="sem1">
+          <a href="/2026/01/01/first-post/" class="post-link">
+            <span>📝</span> My First Blog Post
+          </a>
+          <a href="/2026/01/05/learning-journey/" class="post-link">
+            <span>💻</span> My Learning Journey
+          </a>
+          <a href="/2026/01/10/project-experience/" class="post-link">
+            <span>🚀</span> My Project Experience
+          </a>
+        </div>
+      </div>
+
+      <!-- SEMESTER 2 -->
+      <div class="semester-box" onclick="toggleSemester('sem2', event)">
+        <div class="semester-box-header">
+          <span class="sem-icon">🎓</span>
+          <div>
+            <h3>Semester 2</h3>
+            <p>2026 — Ongoing</p>
+          </div>
+          <span class="sem-arrow" id="sem2-arrow">▼</span>
+        </div>
+        <div class="semester-posts" id="sem2">
+          <a href="/2026/02/01/first-week/" class="post-link">
+            <span>🏫</span> My First Days at University
+          </a>
+          <a href="#" class="post-link coming-soon">
+            <span>⏳</span> More posts coming soon...
+          </a>
+        </div>
+      </div>
+
+    </div>
   </div>
 </section>
 
@@ -39,5 +83,13 @@ function toggleJourney() {
   const arrow = document.getElementById('journey-arrow');
   content.classList.toggle('open');
   arrow.textContent = content.classList.contains('open') ? '▲' : '▼';
+}
+
+function toggleSemester(id, event) {
+  event.stopPropagation();
+  const posts = document.getElementById(id);
+  const arrow = document.getElementById(id + '-arrow');
+  posts.classList.toggle('open');
+  arrow.textContent = posts.classList.contains('open') ? '▲' : '▼';
 }
 </script>
