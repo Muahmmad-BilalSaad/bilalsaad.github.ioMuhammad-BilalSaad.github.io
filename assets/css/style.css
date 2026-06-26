@@ -349,3 +349,243 @@ body.dark footer {
     font-size: 1.2rem;
   }
 }
+/* ===== ABOUT PAGE ===== */
+.about-hero {
+  background: linear-gradient(135deg, #4f46e5, #6366f1);
+  padding: 120px 40px 60px;
+  text-align: center;
+  color: white;
+}
+
+.about-hero h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.about-hero p {
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+.about-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px 80px;
+}
+
+.about-bio-card {
+  display: flex;
+  gap: 30px;
+  background: white;
+  border-radius: 16px;
+  padding: 40px;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.08);
+  margin-bottom: 40px;
+  align-items: flex-start;
+}
+
+.about-bio-icon {
+  font-size: 4rem;
+  flex-shrink: 0;
+}
+
+.about-bio-text h2 {
+  font-size: 1.6rem;
+  margin-bottom: 15px;
+}
+
+.about-bio-text p {
+  color: #475569;
+  margin-bottom: 12px;
+  line-height: 1.8;
+}
+
+.about-info-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  margin-bottom: 40px;
+}
+
+.about-info-card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+  border-left: 4px solid #4f46e5;
+}
+
+.info-icon {
+  font-size: 2rem;
+}
+
+.about-info-card h4 {
+  font-size: 0.8rem;
+  color: #94a3b8;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 4px;
+}
+
+.about-info-card p {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #1a1a2e;
+}
+
+.about-section {
+  margin-bottom: 50px;
+}
+
+.about-section h2 {
+  font-size: 1.6rem;
+  margin-bottom: 25px;
+  color: #1a1a2e;
+  border-bottom: 2px solid #e2e8f0;
+  padding-bottom: 10px;
+}
+
+.education-card {
+  background: white;
+  border-radius: 12px;
+  padding: 30px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+}
+
+.edu-icon {
+  font-size: 3rem;
+}
+
+.edu-details h3 {
+  font-size: 1.2rem;
+  color: #1a1a2e;
+  margin-bottom: 5px;
+}
+
+.edu-uni {
+  color: #4f46e5;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.edu-meta {
+  color: #64748b;
+  font-size: 0.9rem;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+
+.skill-card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+  transition: all 0.3s;
+  border-top: 3px solid #4f46e5;
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(79,70,229,0.15);
+}
+
+.skill-icon {
+  font-size: 2rem;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.skill-card p {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #1a1a2e;
+}
+
+.journey-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.journey-card {
+  background: white;
+  border-radius: 12px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+  transition: all 0.3s;
+}
+
+.journey-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(79,70,229,0.15);
+}
+
+.journey-card-icon {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.journey-card h3 {
+  color: #4f46e5;
+  margin-bottom: 10px;
+}
+
+.journey-card p {
+  color: #64748b;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* DARK MODE ABOUT */
+body.dark .about-bio-card,
+body.dark .about-info-card,
+body.dark .education-card,
+body.dark .skill-card,
+body.dark .journey-card {
+  background: #1e1e2e;
+}
+
+body.dark .about-bio-text p,
+body.dark .journey-card p {
+  color: #94a3b8;
+}
+
+body.dark .about-info-card p,
+body.dark .skill-card p,
+body.dark .edu-details h3,
+body.dark .about-section h2 {
+  color: #e2e8f0;
+}
+
+body.dark .about-section h2 {
+  border-color: #2d2d3d;
+}
+
+@media (max-width: 768px) {
+  .about-info-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .journey-cards-grid {
+    grid-template-columns: 1fr;
+  }
+  .about-bio-card {
+    flex-direction: column;
+    text-align: center;
+  }
+}
