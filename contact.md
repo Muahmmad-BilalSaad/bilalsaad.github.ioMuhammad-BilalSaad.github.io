@@ -9,7 +9,7 @@ title: Contact — Muhammad Bilal Saad
   <div class="contact-hero">
     <div class="contact-hero-content">
       <h1>📩 Get In <span class="highlight">Touch</span></h1>
-      <p>Koi project hai, collaboration chahiye, ya bas baat karni hai — feel free to reach out!</p>
+      <p>Feel free to reach out!</p>
     </div>
   </div>
 
@@ -46,11 +46,11 @@ title: Contact — Muhammad Bilal Saad
 
     <!-- CONTACT FORM -->
     <div class="contact-form-card">
-      <h2>💌 Message Bhejo</h2>
-      <p class="form-subtitle">Main usually 24 ghante mein reply karta hun!</p>
+      <h2>💌 Message Send</h2>
+      <p class="form-subtitle">I reply within 24 hours Usually!</p>
 
       <div class="form-group">
-        <label>👤 Aapka Naam</label>
+        <label>👤 What's Your Name</label>
         <input type="text" placeholder="John Doe" id="contact-name">
       </div>
       <div class="form-group">
@@ -59,15 +59,15 @@ title: Contact — Muhammad Bilal Saad
       </div>
       <div class="form-group">
         <label>💬 Message</label>
-        <textarea placeholder="Aapka message..." id="contact-message" rows="5"></textarea>
+        <textarea placeholder="Your Message..." id="contact-message" rows="5"></textarea>
       </div>
 
       <div class="form-buttons">
         <a href="https://wa.me/923221848689" class="btn-whatsapp" target="_blank">
-          💬 WhatsApp pe Message Karo
+          💬 WhatsApp Me
         </a>
         <a href="mailto:u1248784@gmail.com" class="btn-email">
-          📧 Email Karo
+          📧 Email Me
         </a>
       </div>
     </div>
