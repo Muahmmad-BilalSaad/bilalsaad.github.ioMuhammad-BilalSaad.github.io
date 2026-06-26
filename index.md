@@ -25,9 +25,7 @@ title: Home — Muhammad Bilal Saad
     <span class="arrow" id="journey-arrow">▼</span>
   </div>
   <div class="journey-content" id="journey-content">
-
     <p class="journey-intro">My Computer Engineering journey at UET Faisalabad — semester by semester!</p>
-
     <div class="semester-grid">
 
       <!-- SEMESTER 1 -->
@@ -41,14 +39,26 @@ title: Home — Muhammad Bilal Saad
           <span class="sem-arrow" id="sem1-arrow">▼</span>
         </div>
         <div class="semester-posts" id="sem1">
-          <a href="/2026/01/01/first-post/" class="post-link">
-            <span>📝</span> My First Blog Post
+          <a href="/2025/09/01/my-journey/" class="post-link">
+            <span>📝</span> My Journey as a CE Student
           </a>
-          <a href="/2026/01/05/learning-journey/" class="post-link">
-            <span>💻</span> My Learning Journey
+          <a href="/2025/09/15/why-i-chose-computer-engineering/" class="post-link">
+            <span>💻</span> Why I Chose Computer Engineering
           </a>
-          <a href="/2026/01/10/project-experience/" class="post-link">
-            <span>🚀</span> My Project Experience
+          <a href="/2025/10/01/hostel-life/" class="post-link">
+            <span>🏫</span> Hostel Life: A New Experience
+          </a>
+          <a href="/2025/10/15/benefits-of-hostel-life/" class="post-link">
+            <span>✅</span> Benefits of Hostel Life
+          </a>
+          <a href="/2025/11/01/drawbacks-of-hostel-life/" class="post-link">
+            <span>⚠️</span> Drawbacks of Hostel Life
+          </a>
+          <a href="/2025/11/15/programming-fundamentals/" class="post-link">
+            <span>🐍</span> Programming Fundamentals & ML
+          </a>
+          <a href="/2025/12/01/exam-week/" class="post-link">
+            <span>📖</span> Exam Week Experience
           </a>
         </div>
       </div>
