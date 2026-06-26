@@ -14,11 +14,7 @@ title: Home — Muhammad Bilal Saad
       <p class="subtitle">BS Computer Engineering | Semester 2</p>
       <p class="university">🎓 UET Faisalabad | Reg: 2025-BSCPE-109</p>
       <p class="bio">Web Developer & University Student from Pakistan. I build clean websites and share my real journey through writing.</p>
-      <div class="hero-buttons">
-        <a href="/about" class="btn-primary">About Me</a>
-        <a href="/contact" class="btn-secondary">Contact</a>
-      </div>
-    </div>
+
   </div>
 </section>
 
