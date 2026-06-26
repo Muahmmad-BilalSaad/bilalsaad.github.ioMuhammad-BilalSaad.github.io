@@ -785,3 +785,129 @@ body.dark .form-group textarea {
     flex-direction: column;
   }
 }
+/* ===== SEMESTER BOXES ===== */
+.journey-intro {
+  color: #64748b;
+  margin-bottom: 25px;
+  font-size: 1rem;
+}
+
+.semester-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.semester-box {
+  background: #f8f9ff;
+  border-radius: 12px;
+  border: 2px solid #e0e0ff;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.semester-box:hover {
+  border-color: #4f46e5;
+  box-shadow: 0 8px 25px rgba(79,70,229,0.12);
+}
+
+.semester-box-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 20px;
+}
+
+.sem-icon {
+  font-size: 2.5rem;
+  background: #ede9fe;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.semester-box-header div {
+  flex: 1;
+}
+
+.semester-box-header h3 {
+  font-size: 1.1rem;
+  color: #1a1a2e;
+  margin-bottom: 3px;
+}
+
+.semester-box-header p {
+  font-size: 0.85rem;
+  color: #64748b;
+}
+
+.sem-arrow {
+  font-size: 1rem;
+  color: #4f46e5;
+  font-weight: bold;
+}
+
+.semester-posts {
+  display: none;
+  padding: 0 20px 20px;
+  border-top: 1px solid #e0e0ff;
+}
+
+.semester-posts.open {
+  display: block;
+  animation: fadeIn 0.3s ease;
+}
+
+.post-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 15px;
+  background: white;
+  border-radius: 8px;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #1a1a2e;
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: all 0.3s;
+  border-left: 3px solid #4f46e5;
+}
+
+.post-link:hover {
+  background: #ede9fe;
+  color: #4f46e5;
+  transform: translateX(5px);
+}
+
+.post-link.coming-soon {
+  opacity: 0.5;
+  cursor: default;
+  border-left-color: #94a3b8;
+}
+
+/* DARK MODE */
+body.dark .semester-box {
+  background: #1a1a2e;
+  border-color: #2d2d3d;
+}
+
+body.dark .semester-box-header h3 {
+  color: #e2e8f0;
+}
+
+body.dark .post-link {
+  background: #0f0f1a;
+  color: #e2e8f0;
+}
+
+body.dark .post-link:hover {
+  background: #1e1b4b;
+  color: #818cf8;
+}
+
+@media (max-width: 768px) {
+  .semester-grid {
+    grid-template-columns: 1fr;
+  }
+}
